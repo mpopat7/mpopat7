@@ -1,7 +1,7 @@
-<h1 align="center">Hey! I'm Milen :)</h1>
+<h1 align="center">Hey! I'm Milen</h1>
 
 <p align="center">
-  <em>Machine learning · Building useful tools · Music production</em>
+  <em>AI/ML · Building useful tools · Music production</em>
 </p>
 
 ## Stats
