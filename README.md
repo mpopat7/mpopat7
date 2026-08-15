@@ -7,7 +7,7 @@
 ## Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=mpopat7&theme=tokyonight&hide_border=true" alt="GitHub streak stats" height="140" />
+  <img src="./profile/streak.svg" alt="GitHub streak stats" height="140" />
 </p>
 
 ---
