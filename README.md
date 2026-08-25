@@ -2,10 +2,12 @@
   <img src="./profile/terminal.svg" alt="Terminal introduction for Milen Popat, a Data Science and Computer Science student building and evaluating AI systems" width="900" />
 </p>
 
-## `$ git status`
+<p align="center">
+  <img src="./profile/streak.svg" alt="Terminal-style Git status showing Milen's total contributions, current streak, and longest streak" width="900" />
+</p>
 
 <p align="center">
-  <img src="./profile/streak.svg" alt="Milen's GitHub contribution streak" height="140" />
+  <img src="./profile/contributions.svg" alt="Terminal-style graph of Milen's GitHub contributions over the last year" width="900" />
 </p>
 
 <p align="center">

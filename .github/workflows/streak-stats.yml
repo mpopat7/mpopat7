@@ -1,4 +1,4 @@
-name: Update streak stats
+name: Update profile stats
 
 on:
   schedule:
@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - ".github/workflows/streak-stats.yml"
+      - "scripts/render_terminal_status.py"
+      - "scripts/render_terminal_contributions.py"
   workflow_dispatch:
 
 jobs:
@@ -20,14 +22,29 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
-          options: user=${{ github.repository_owner }}&background=07130B&border=238636&stroke=163D22&ring=7EE787&fire=7EE787&currStreakNum=F0F6FC&sideNums=7EE787&currStreakLabel=F0F6FC&sideLabels=7EE787&dates=B1BAC4&border_radius=18&disable_animations=true
-          path: profile/streak.svg
+          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&disable_animations=true
+          path: profile/streak-raw.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit streak stats
+      - name: Render terminal status card
+        run: python3 scripts/render_terminal_status.py profile/streak-raw.svg profile/streak.svg
+
+      - name: Fetch contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql \
+            -f query='query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { totalContributions months { firstDay name year } weeks { contributionDays { contributionCount contributionLevel date weekday } } } } } }' \
+            -f login='${{ github.repository_owner }}' \
+            > "${{ runner.temp }}/contributions.json"
+
+      - name: Render terminal contribution graph
+        run: python3 scripts/render_terminal_contributions.py "${{ runner.temp }}/contributions.json" profile/contributions.svg
+
+      - name: Commit profile stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg
-          git commit -m "Update streak stats" || exit 0
+          git add profile/streak.svg profile/contributions.svg
+          git commit -m "Update profile stats" || exit 0
           git push
