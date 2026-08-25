@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Milen Popat terminal profile</title>
+  <desc id="desc">A terminal-style introduction for Milen Popat, a Data Science and Computer Science student, AI research fellow, and data analyst.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07130b" />
+      <stop offset="1" stop-color="#020604" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect x="18" y="18" width="864" height="394" rx="18" fill="url(#surface)" stroke="#238636" stroke-width="2" filter="url(#shadow)" />
+  <path d="M18 72H882" stroke="#163d22" stroke-width="2" />
+
+  <circle cx="51" cy="45" r="7" fill="#ff5f57" />
+  <circle cx="75" cy="45" r="7" fill="#febc2e" />
+  <circle cx="99" cy="45" r="7" fill="#28c840" />
+  <text x="450" y="51" text-anchor="middle" fill="#7d8590" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">milen@github: ~</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">
+    <text x="48" y="111" fill="#7ee787">milen@github:~$ <tspan fill="#e6edf3">whoami</tspan></text>
+    <text x="48" y="145" fill="#f0f6fc" font-size="28" font-weight="700">Milen Popat</text>
+    <text x="48" y="177" fill="#b1bac4">Data Science + Computer Science @ Indiana University</text>
+    <text x="48" y="207" fill="#b1bac4">AI research fellow + data analyst</text>
+
+    <text x="48" y="257" fill="#7ee787">milen@github:~$ <tspan fill="#e6edf3">./focus --current</tspan></text>
+    <text x="48" y="291" fill="#58a6ff">[01] <tspan fill="#b1bac4">visual document retrieval without OCR</tspan></text>
+    <text x="48" y="321" fill="#58a6ff">[02] <tspan fill="#b1bac4">source-backed AI tools for real workflows</tspan></text>
+    <text x="48" y="351" fill="#58a6ff">[03] <tspan fill="#b1bac4">local model evaluation and agent systems</tspan></text>
+
+    <text x="48" y="393" fill="#7ee787">milen@github:~$ <tspan fill="#e6edf3">building in public</tspan><tspan fill="#7ee787">_</tspan></text>
+  </g>
+</svg>
