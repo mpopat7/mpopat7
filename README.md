@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile/terminal.svg" alt="Terminal introduction for Milen Popat, a Data Science and Computer Science student building and evaluating AI systems" width="900" />
+  <img src="./profile/terminal.svg" alt="Terminal introduction for Milen Popat, a Data Science and Computer Science student, AI research fellow, and data analyst" width="900" />
 </p>
 
 <p align="center">
