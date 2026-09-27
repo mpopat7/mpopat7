@@ -4,7 +4,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/milenpopat)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mpopat@iu.edu)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=googlechrome&logoColor=white)](https://github.com/mpopat7/portfolio)
 
 ## About
 
@@ -14,7 +13,7 @@ Data Science and Computer Science major at Indiana University with a minor in Bu
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Radiotherapy Beam-Angle Optimization** | Genetic algorithm for seven-beam radiotherapy planning on PortPy's lung-cancer benchmark. Beat clinician-selected beam configurations in 30 of 37 patients with 12.14% lower mean objective cost. Algoverse AI Research Fellowship; manuscript in preparation. | Python, PortPy, genetic algorithms |
+| **[Radiotherapy Beam-Angle Optimization](https://github.com/algoverse-agatha-rmcj/algoverse-portpy-beam-optimization)** | Genetic algorithm for seven-beam radiotherapy planning on PortPy's lung-cancer benchmark. Beat clinician-selected beam configurations in 30 of 37 patients with 12.14% lower mean objective cost. Algoverse AI Research Fellowship; manuscript in preparation. | Python, PortPy, genetic algorithms |
 | **[Multimodal RAG](https://github.com/mpopat7/multimodal-rag)** | Visual-document RAG that embeds page images with ColQwen2 and answers questions over PDFs and slide decks with no OCR step. 87% top-1 retrieval, +17 pts over an OCR-text baseline. | Python, ColQwen2, Ollama |
 | **[SNAP Notice Navigator](https://github.com/mpopat7/snap-notice-navigator)** | AI web app that explains SNAP benefit notices in plain language and builds a source-backed, deadline-aware checklist of next steps. Built for the USAII Global AI Hackathon; [live on Vercel](https://snap-notice-navigator.vercel.app). | Next.js, TypeScript, Claude API |
 | **[JobStager](https://github.com/mpopat7/job-stager)** | ATS application staging agent that pre-fills Greenhouse, Ashby, Lever, and Workday forms for human review and never submits on its own. | Python, Playwright, FastAPI |
