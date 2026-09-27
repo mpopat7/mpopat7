@@ -26,8 +26,6 @@ Data Science and Computer Science major at Indiana University with a minor in Bu
 - **HiView Solutions** — Data Analyst Intern: live dashboards and Python/Apollo data workflows across 250+ clients (May 2026–present)
 - **Algoverse** — AI Research Fellow: genetic algorithms for radiotherapy beam-angle optimization (Jun–Sep 2026)
 - **Precise Urgent Care** — Analytics & Operations Intern: clinic dashboards and a gallstone ultrasound-report classifier (2025–2026)
-- **JPMorganChase** — Career.edYOU Academy (selected, Fall 2026)
-- **Business Analytics Club** — Vice President of Operations; 3rd place, Cincinnati Reds Analytics Case Competition
 - **Epsilon Nu Tau** — Active Member; 1st place, Cintas case competition
 
 ## Tech
