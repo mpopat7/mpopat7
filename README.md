@@ -7,7 +7,7 @@
 
 ## About
 
-Data Science and Computer Science major at Indiana University with a minor in Business. Currently a Data Analyst Intern at HiView Solutions, building live dashboards and Python data pipelines across 250+ clients. Previously an AI Research Fellow at Algoverse, where I built a genetic algorithm for radiotherapy beam-angle optimization. I like building ML systems, RAG pipelines, and AI tools that take work off people's plates.
+Data Science and Computer Science major at Indiana University with a minor in Business. Currently a Data Analyst Intern at HiView Solutions, building live dashboards and Python data pipelines across 250+ clients. Previously an AI Research Fellow at Algoverse, where I built a genetic algorithm for radiotherapy beam-angle optimization.
 
 ## Featured Projects
 
