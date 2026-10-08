@@ -38,9 +38,8 @@ Data Science and Computer Science major at Indiana University with a minor in Bu
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-Plus: pandas, NumPy, scikit-learn, Transformers, LangGraph, RAG/LLM development, Ollama, Tableau, Power BI, Excel (Power Query, VBA)
+Plus: pandas, NumPy, scikit-learn, LangGraph, RAG/LLM development, Ollama, Tableau, Power BI, Excel (Power Query, VBA)
 
 ## Other Interests
 
